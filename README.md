@@ -3,8 +3,7 @@ Main repository, used for main issue tracking and hosting wiki.
 
 ## Edition plan
 - Holo Universe, includes GNOME and Steam Deck Vapor theme, but does not have Steam and proprietary drivers
-- Gnome Dome, only GNOME, basic software and minimum system, like real Arch
-- Plasma Fantastic, only KDE, basic software and minimum system, like real Arch
+- Holo KDE, includes KDE and Steam Deck Vapor theme, but does not have Steam and proprietary drivers
 
 ## Building
 ### Requirements
@@ -45,3 +44,6 @@ usr/ - main changes, rest of content here
     - bin/ - scripts
     - share/ - livecd sound configs
   - share/ - wallpapers and Vapor deck theme
+
+## Why is it made?
+I want a personal customized OS. Like Arka Linux GUI is cool, but gnome-pure isn't comfortable, and it requires tuning. Also it got discontinued. So I am making my own tuned distro with needed tools and packages, that also pre-comes with Vapor theme, that is a Deck exclusive (really, Vapor means Steam), but it looks hot, so I made editions with Gnome and Vapor, also Plasma and Vapor, like SteamOS with Gnome/KDE but not for gamers.
