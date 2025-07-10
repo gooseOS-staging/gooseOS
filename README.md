@@ -8,11 +8,11 @@ Main repository, used for main issue tracking and hosting wiki.
 
 ## Building
 ### Requirements
-Atleast 50 GB of free space
-Internet connection
-Good CPU for fast builds
-Arch-based distro
-Some luck and advanced copy-pasting skills
+- Atleast 50 GB of free space
+- Internet connection
+- Good CPU for fast builds
+- Arch-based distro
+- Some luck and advanced copy-pasting skills
 
 ### First start
 First, ```git clone``` needed configuration (like holo-universe), and move to directory.
