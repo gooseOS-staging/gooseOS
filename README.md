@@ -22,24 +22,24 @@ sudo mkarchiso -v
 ```
 
 ### File legend
-bootableusb.sh - makes a USB pendrive with gooseOS
-cleanup.sh - cleans build directories
-profiledef.sh - gooseOS branding piece
-services.sh - some distro wrap and service link
-packages.x86_64 - includes packages, that will be included in livecd and main OS
-pacman.conf - pacman configuration, for main OS
-airootfs/ - overlay for gooseOS, includes files that will be overrided, added and overlayed, including configs for GDM, some scripts, etc.
-efiboot/ - includes EFI settings, do not change unless you know what are you doing, as it can make distro unbootable
-grub/ - includes GRUB settings, do not change unless you know what are you doing as it can make distro unbootable
-syslinux/ - includes syslinux settings, do not change unless you know what are you doing as it can make distro unbootable
+- bootableusb.sh - makes a USB pendrive with gooseOS
+- cleanup.sh - cleans build directories
+- profiledef.sh - gooseOS branding piece
+- services.sh - some distro wrap and service link
+- packages.x86_64 - includes packages, that will be included in livecd and main OS
+- pacman.conf - pacman configuration, for main OS
+- airootfs/ - overlay for gooseOS, includes files that will be overrided, added and overlayed, including configs for GDM, some scripts, etc.
+- efiboot/ - includes EFI settings, do not change unless you know what are you doing, as it can make distro unbootable
+- grub/ - includes GRUB settings, do not change unless you know what are you doing as it can make distro unbootable
+- syslinux/ - includes syslinux settings, do not change unless you know what are you doing as it can make distro unbootable
 
 Airootfs will be explained here, other directories do not count, as others are the same as in Arch Linux
 
 #### Airootfs legend
-etc/ - mainly GDM settings, pacman mirrorlists and configurations
+- etc/ - mainly GDM settings, pacman mirrorlists and configurations
   - skel/ - includes .bashrc, .config so you can make custom shell and user configuration
-root/ - just a placeholder for future changes, in future may include customize_airootfs.sh, but initially there was .automated_script.sh and .zlogin
-usr/ - main changes, rest of content here
+- root/ - just a placeholder for future changes, in future may include customize_airootfs.sh, but initially there was .automated_script.sh and .zlogin
+- usr/ - main changes, rest of content here
   - bin/ - includes our custom scripts
   - local/ - local files
     - bin/ - scripts
