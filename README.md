@@ -4,6 +4,7 @@ Main repository, used for main issue tracking and hosting wiki.
 ## Edition plan
 - Holo Universe, includes GNOME and Steam Deck Vapor theme, but does not have Steam and proprietary drivers
 - Holo KDE, includes KDE and Steam Deck Vapor theme, but does not have Steam and proprietary drivers
+- Other DE editions
 
 ## Building
 ### Requirements
